@@ -1,0 +1,41 @@
+h1{
+    color: rebeccapurple;
+    margin-left: 30px;
+}
+a{
+    color: black;
+    background-color:rgb(78, 68, 68);
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: beige;
+    text-decoration: none;
+  }
+  img{
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .cercle{
+    border-radius:50%;
+  }
+  div{
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    background-color: coral;
+    border-radius: 4%;
+    justify-content: center;
+  }
+  .border{
+    border: 5px solid black;
+    box-shadow: 10px;
+  }
+#titre-photo{
+  width: 60%;
+  padding: 1%;
+  margin-left: 170px;
+  margin-right: 150px;
+  box-shadow: 3 3 3 3;
+  text-justify: distribute;
+}
